@@ -4,96 +4,114 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Kishore Gollahalli Suresha — Data Scientist & AI Engineer</title>
-<meta name="description" content="Kishore Gollahalli Suresha — Data Scientist & AI Engineer. MSc Data Analytics (Distinction), QMUL. Python, SQL, ML, LLMs/RAG, Power BI. Building & deploying end-to-end data and GenAI products." />
+<meta name="description" content="Kishore Gollahalli Suresha — Data Scientist & AI Engineer. MSc Data Analytics (Distinction), QMUL. Python, SQL, ML, LLMs/RAG, Power BI, Tableau. I build & deploy end-to-end data and GenAI products." />
+<meta property="og:title" content="Kishore Gollahalli Suresha — Data Scientist & AI Engineer" />
+<meta property="og:description" content="MSc Data Analytics (Distinction). I build & deploy end-to-end data and AI products — KYC tamper detection, agentic AI copilots, ML, BI dashboards." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='50%25' y='54%25' font-family='Arial' font-size='30' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'%3EKS%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header class="nav">
-  <a href="#top" class="nav__brand">KS</a>
+  <a href="#top" class="nav__brand">Kishore<span>.</span></a>
   <nav class="nav__links">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
+    <a href="#contact" class="nav__cta">Contact</a>
   </nav>
 </header>
 
 <!-- HERO -->
 <section id="top" class="hero">
-  <p class="hero__eyebrow">Data Scientist · AI Engineer · UK</p>
-  <h1 class="hero__title">Kishore Gollahalli&nbsp;Suresha</h1>
-  <p class="hero__tagline">
-    I build and deploy data &amp; AI products end-to-end — from raw data to a live app.
-    MSc Data Analytics (Distinction), QMUL · Azure AZ-400 Certified.
-  </p>
-  <div class="hero__cta">
-    <a class="btn btn--primary" href="#projects">View projects</a>
-    <a class="btn" href="mailto:kishoregs200218@gmail.com">Get in touch</a>
-  </div>
-  <div class="hero__links">
-    <a href="https://github.com/Kishorgs18" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://www.linkedin.com/in/kishoregollahalli-suresha" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="mailto:kishoregs200218@gmail.com">kishoregs200218@gmail.com</a>
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <span class="badge"><span class="dot"></span> Available for Data Scientist / AI roles — UK · Remote or Hybrid</span>
+    <h1 class="hero__title">Kishore Gollahalli<br/>Suresha</h1>
+    <p class="hero__role">Data Scientist <span>·</span> AI Engineer</p>
+    <p class="hero__tagline">
+      I build and deploy data &amp; AI products end-to-end — from raw data to a live app.
+      MSc Data Analytics <strong>(Distinction)</strong>, QMUL · Azure <strong>AZ-400</strong> Certified.
+    </p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="#projects">View my work</a>
+      <a class="btn btn--ghost" href="mailto:kishoregs200218@gmail.com">Get in touch</a>
+    </div>
+    <div class="hero__links">
+      <a href="https://github.com/Kishorgs18" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/kishoregollahalli-suresha" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="mailto:kishoregs200218@gmail.com">Email ↗</a>
+    </div>
   </div>
 </section>
 
+<!-- STATS -->
+<section class="stats" data-reveal>
+  <div class="stat"><span class="stat__num" data-count="12">0</span><span class="stat__plus">+</span><p>GitHub projects</p></div>
+  <div class="stat"><span class="stat__num stat__text">Distinction</span><p>MSc Data Analytics</p></div>
+  <div class="stat"><span class="stat__num stat__text">AZ-400</span><p>Azure Certified</p></div>
+  <div class="stat"><span class="stat__num" data-count="2">0</span><p>Live deployed apps</p></div>
+</section>
+
 <!-- ABOUT -->
-<section id="about" class="section">
-  <h2 class="section__title">About</h2>
+<section id="about" class="section" data-reveal>
+  <p class="section__eyebrow">01 — About</p>
+  <h2 class="section__title">I turn data into products people use</h2>
   <div class="about">
     <p>
-      I'm a Data Scientist &amp; AI Engineer who likes to <strong>ship</strong>. I work
-      across the full stack of a data product — pipelines, models, LLM/agentic systems,
-      and deployment — and care about building things that are reliable, explainable, and
-      genuinely useful.
+      I'm a Data Scientist &amp; AI Engineer who likes to <strong>ship</strong>. I work across the
+      full stack of a data product — pipelines, models, LLM/agentic systems, and deployment —
+      and care about building things that are reliable, explainable, and genuinely useful.
     </p>
     <p>
-      I hold an <strong>MSc in Data Analytics (Distinction)</strong> from Queen Mary
-      University of London and a <strong>BEng in Computer Science (Distinction)</strong>,
-      and I'm a <strong>Microsoft Azure DevOps Engineer Expert (AZ-400)</strong>. Recently
-      I've deployed a KYC document tamper-detection system, built an agentic supply-chain
-      AI copilot, and delivered an end-to-end retail analytics project across SQL, Power BI,
-      and Tableau.
+      I hold an <strong>MSc in Data Analytics (Distinction)</strong> from Queen Mary University
+      of London, a <strong>BEng in Computer Science (Distinction)</strong>, and I'm a
+      <strong>Microsoft Azure DevOps Engineer Expert (AZ-400)</strong>. Recently I've deployed a
+      KYC document tamper-detection system, built an agentic supply-chain AI copilot, and
+      delivered an end-to-end retail analytics project spanning SQL, Power BI, and Tableau.
     </p>
   </div>
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="section">
-  <h2 class="section__title">Skills</h2>
+<section id="skills" class="section" data-reveal>
+  <p class="section__eyebrow">02 — Skills</p>
+  <h2 class="section__title">My toolkit</h2>
   <div class="skills">
     <div class="skill-group">
       <h3>Languages &amp; Data</h3>
-      <ul><li>Python</li><li>SQL (BigQuery, window functions, CTEs)</li><li>dbt</li><li>DuckDB</li><li>R</li></ul>
+      <ul><li>Python</li><li>SQL</li><li>dbt</li><li>DuckDB</li><li>R</li><li>BigQuery</li></ul>
     </div>
     <div class="skill-group">
       <h3>ML &amp; AI</h3>
-      <ul><li>scikit-learn</li><li>XGBoost</li><li>PyTorch</li><li>LLMs / RAG</li><li>LangChain / LangGraph</li><li>Prophet</li></ul>
+      <ul><li>scikit-learn</li><li>XGBoost</li><li>PyTorch</li><li>LLMs / RAG</li><li>LangChain</li><li>LangGraph</li></ul>
     </div>
     <div class="skill-group">
       <h3>BI &amp; Analytics</h3>
-      <ul><li>Power BI (DAX)</li><li>Tableau</li><li>Advanced Excel</li><li>Streamlit</li><li>Statistical analysis</li></ul>
+      <ul><li>Power BI (DAX)</li><li>Tableau</li><li>Advanced Excel</li><li>Streamlit</li><li>Statistics</li></ul>
     </div>
     <div class="skill-group">
       <h3>Engineering</h3>
-      <ul><li>FastAPI</li><li>Docker</li><li>CI/CD (Azure DevOps)</li><li>Git</li><li>pytest / TDD</li></ul>
+      <ul><li>FastAPI</li><li>Docker</li><li>CI/CD · Azure DevOps</li><li>Git</li><li>pytest / TDD</li></ul>
     </div>
   </div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="section">
-  <h2 class="section__title">Featured Projects</h2>
+<section id="projects" class="section" data-reveal>
+  <p class="section__eyebrow">03 — Selected Work</p>
+  <h2 class="section__title">Featured projects</h2>
   <div class="projects">
 
     <article class="card">
-      <h3>KYC Document Tamper Detection</h3>
-      <p>Forensic flagger (image forensics + OCR) that scores KYC documents for tampering — Aadhaar/PAN/Passport/DL/Voter ID. Deployed as a live web app.</p>
+      <div class="card__top"><h3>KYC Document Tamper Detection</h3><span class="metric metric--live">● Live</span></div>
+      <p>Forensic flagger (image forensics + OCR) that scores KYC documents — Aadhaar, PAN, Passport, Driving Licence, Voter ID — for tampering. Deployed as a live web app.</p>
       <div class="card__tags"><span>Python</span><span>OpenCV</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span></div>
       <div class="card__links">
         <a href="https://github.com/Kishorgs18/kyc-tamper-detection" target="_blank" rel="noopener">Code</a>
@@ -102,7 +120,7 @@
     </article>
 
     <article class="card">
-      <h3>Supply-Chain Lakehouse + Agentic AI Copilot</h3>
+      <div class="card__top"><h3>Supply-Chain Lakehouse + Agentic AI Copilot</h3></div>
       <p>Real-time streaming lakehouse (Medallion architecture) with a LangGraph ReAct copilot and an XGBoost delay predictor over a dbt + DuckDB pipeline.</p>
       <div class="card__tags"><span>LangGraph</span><span>dbt</span><span>DuckDB</span><span>XGBoost</span><span>LLMs</span></div>
       <div class="card__links">
@@ -111,8 +129,8 @@
     </article>
 
     <article class="card">
-      <h3>UK Retail Analytics — SQL · Excel · Power BI · Tableau</h3>
-      <p>End-to-end analytics on 8,000 UK orders: SQL (window functions, JOIN variance), Python EDA, and dashboards across three BI tools, ending in business recommendations.</p>
+      <div class="card__top"><h3>UK Retail Analytics</h3><span class="metric">SQL · BI</span></div>
+      <p>End-to-end analytics on 8,000 UK orders: SQL (window functions, JOIN variance), Python EDA, and dashboards across Excel, Power BI &amp; Tableau — ending in business recommendations.</p>
       <div class="card__tags"><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Excel</span><span>Python</span></div>
       <div class="card__links">
         <a href="https://github.com/Kishorgs18/uk-retail-analytics" target="_blank" rel="noopener">Code</a>
@@ -120,8 +138,8 @@
     </article>
 
     <article class="card">
-      <h3>Hotel Booking Cancellation Prediction</h3>
-      <p>XGBoost model (87% accuracy / 0.94 AUC) with leakage control and feature engineering, served through an interactive Streamlit dashboard.</p>
+      <div class="card__top"><h3>Hotel Booking Cancellation Prediction</h3><span class="metric">0.94 AUC</span></div>
+      <p>XGBoost model (87% accuracy / 0.94 AUC) with strict leakage control and feature engineering, served through an interactive Streamlit dashboard.</p>
       <div class="card__tags"><span>XGBoost</span><span>scikit-learn</span><span>Streamlit</span><span>Plotly</span></div>
       <div class="card__links">
         <a href="https://github.com/Kishorgs18/Hotel-Booking-Cancellation-Prediction" target="_blank" rel="noopener">Code</a>
@@ -129,7 +147,7 @@
     </article>
 
     <article class="card">
-      <h3>Offline RL on Sensor/System Logs</h3>
+      <div class="card__top"><h3>Offline RL on Sensor/System Logs</h3><span class="metric">R²=0.92</span></div>
       <p>Offline-RL pipeline + a rigorous learnability study that diagnosed the logged policy as uninformative — delivering an R²=0.92 state→reward model instead of a misleading agent.</p>
       <div class="card__tags"><span>PyTorch</span><span>scikit-learn</span><span>RL</span></div>
       <div class="card__links">
@@ -138,8 +156,8 @@
     </article>
 
     <article class="card">
-      <h3>London Transport Multiplex Network — MSc Dissertation</h3>
-      <p>Modelled TfL (Tube/Overground/DLR) as a multiplex graph to rank critical stations and quantify disruption impact via Kendall's τ rank shifts.</p>
+      <div class="card__top"><h3>London Transport Multiplex Network</h3><span class="metric">MSc</span></div>
+      <p>MSc dissertation: modelled TfL (Tube/Overground/DLR) as a multiplex graph to rank critical stations and quantify disruption impact via Kendall's τ rank shifts.</p>
       <div class="card__tags"><span>NetworkX</span><span>Folium</span><span>SciPy</span></div>
       <div class="card__links">
         <a href="https://github.com/Kishorgs18/TfL-Multiplex-Layers-Data-Analysis" target="_blank" rel="noopener">Code</a>
@@ -147,7 +165,7 @@
     </article>
 
     <article class="card">
-      <h3>Regulatory Risk RAG Analyzer</h3>
+      <div class="card__top"><h3>Regulatory Risk RAG Analyzer</h3></div>
       <p>FastAPI RAG microservice that summarises key obligations from regulatory PDFs and extracts risk KPIs (LangChain + Chroma + OpenAI).</p>
       <div class="card__tags"><span>LangChain</span><span>RAG</span><span>Chroma</span><span>FastAPI</span></div>
       <div class="card__links">
@@ -156,7 +174,7 @@
     </article>
 
     <article class="card">
-      <h3>AutoPrompt Executive KPI Copilot</h3>
+      <div class="card__top"><h3>AutoPrompt Executive KPI Copilot</h3></div>
       <p>Executive KPI copilot with adaptive prompting, Prophet forecasting and XGBoost anomaly detection, served via FastAPI and a Slack bot.</p>
       <div class="card__tags"><span>Prophet</span><span>XGBoost</span><span>FastAPI</span><span>Slack</span></div>
       <div class="card__links">
@@ -169,47 +187,46 @@
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="section">
-  <h2 class="section__title">Experience</h2>
+<section id="experience" class="section" data-reveal>
+  <p class="section__eyebrow">04 — Experience</p>
+  <h2 class="section__title">Where I've worked</h2>
   <div class="timeline">
     <div class="tl-item">
-      <div class="tl-head"><strong>AI Data Trainer</strong> — Outlier.AI <span>Sep–Dec 2024</span></div>
+      <div class="tl-head"><strong>AI Data Trainer</strong> — Outlier.AI <span>Sep – Dec 2024</span></div>
       <p>Evaluated frontier LLM outputs (GPT-4 class, Claude) at scale; applied systematic prompt engineering and built evaluation frameworks that improved output quality across multiple projects.</p>
     </div>
     <div class="tl-item">
-      <div class="tl-head"><strong>AI/ML Intern</strong> — Inflow Technologies <span>Apr–Sep 2023</span></div>
+      <div class="tl-head"><strong>AI/ML Intern</strong> — Inflow Technologies <span>Apr – Sep 2023</span></div>
       <p>Built an AI chatbot in Python with NLP intent recognition and entity extraction (~85% accuracy), cutting manual support queries by ~30%.</p>
     </div>
     <div class="tl-item">
-      <div class="tl-head"><strong>Web Development Intern</strong> — Varcons Technologies <span>Aug–Sep 2023</span></div>
+      <div class="tl-head"><strong>Web Development Intern</strong> — Varcons Technologies <span>Aug – Sep 2023</span></div>
       <p>Designed and built a responsive photography portfolio website (HTML/CSS/JS) with viewport-aware responsive design and performance optimisation.</p>
     </div>
   </div>
-</section>
 
-<!-- EDUCATION -->
-<section class="section">
-  <h2 class="section__title">Education &amp; Certifications</h2>
+  <h3 class="edu-title">Education &amp; Certifications</h3>
   <div class="edu">
-    <div><strong>MSc Data Analytics — Distinction</strong><br/>Queen Mary University of London · 2024–2025</div>
-    <div><strong>BEng Computer Science — Distinction</strong><br/>Visvesvaraya Technological University · 2020–2024</div>
-    <div><strong>Microsoft Azure DevOps Engineer Expert (AZ-400)</strong></div>
-    <div><strong>Advanced Power BI (DAX)</strong> · <strong>Advanced NLP with Python</strong></div>
+    <div><strong>MSc Data Analytics — Distinction</strong><span>Queen Mary University of London · 2024–2025</span></div>
+    <div><strong>BEng Computer Science — Distinction</strong><span>Visvesvaraya Technological University · 2020–2024</span></div>
+    <div><strong>Azure DevOps Engineer Expert (AZ-400)</strong><span>Microsoft</span></div>
+    <div><strong>Advanced Power BI (DAX) · Advanced NLP</strong><span>Certifications</span></div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<footer id="contact" class="footer">
-  <h2>Let's work together</h2>
-  <p>Open to Data Scientist / Data Analyst / AI Engineer roles — UK, remote or hybrid.</p>
+<footer id="contact" class="footer" data-reveal>
+  <p class="section__eyebrow">05 — Contact</p>
+  <h2 class="footer__title">Let's build something together</h2>
+  <p class="footer__sub">Open to Data Scientist / Data Analyst / AI Engineer roles — UK, remote or hybrid.</p>
   <div class="footer__links">
     <a class="btn btn--primary" href="mailto:kishoregs200218@gmail.com">Email me</a>
-    <a class="btn" href="https://www.linkedin.com/in/kishoregollahalli-suresha" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn" href="https://github.com/Kishorgs18" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn btn--ghost" href="https://www.linkedin.com/in/kishoregollahalli-suresha" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn--ghost" href="https://github.com/Kishorgs18" target="_blank" rel="noopener">GitHub</a>
   </div>
-  <p class="footer__copy">© <span id="year"></span> Kishore Gollahalli Suresha</p>
+  <p class="footer__copy">© <span id="year"></span> Kishore Gollahalli Suresha · Built from scratch with HTML &amp; CSS</p>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
 </body>
 </html>
