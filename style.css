@@ -127,6 +127,6 @@ h1,h2,h3,.hero__role{font-family:'Space Grotesk','Inter',sans-serif}
 .footer__copy{font-size:.82rem;color:var(--muted)}
 
 /* REVEAL ANIMATION */
-[data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
-[data-reveal].in{opacity:1;transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.js [data-reveal].in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){[data-reveal]{opacity:1;transform:none;transition:none}}

@@ -1,3 +1,6 @@
+// Enable JS-only reveal styles (content stays visible if JS is off)
+document.documentElement.classList.add('js');
+
 // Year
 document.getElementById('year').textContent = new Date().getFullYear();
 
